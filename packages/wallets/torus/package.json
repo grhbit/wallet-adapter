@@ -1,5 +1,5 @@
 {
-    "name": "@solana/wallet-adapter-torus",
+    "name": "@grhbit/wallet-adapter-torus",
     "version": "0.11.18",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
@@ -30,7 +30,7 @@
         "@solana/web3.js": "^1.50.1"
     },
     "dependencies": {
-        "@solana/wallet-adapter-base": "workspace:^",
+        "@grhbit/wallet-adapter-base": "workspace:^",
         "@toruslabs/solana-embed": "^0.2.2",
         "assert": "^2.0.0",
         "crypto-browserify": "^3.12.0",

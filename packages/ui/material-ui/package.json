@@ -1,5 +1,5 @@
 {
-    "name": "@solana/wallet-adapter-material-ui",
+    "name": "@grhbit/wallet-adapter-material-ui",
     "version": "0.16.12",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
@@ -34,8 +34,8 @@
         "react-dom": "*"
     },
     "dependencies": {
-        "@solana/wallet-adapter-base": "workspace:^",
-        "@solana/wallet-adapter-react": "workspace:^"
+        "@grhbit/wallet-adapter-base": "workspace:^",
+        "@grhbit/wallet-adapter-react": "workspace:^"
     },
     "devDependencies": {
         "@emotion/react": "^11.10.0",

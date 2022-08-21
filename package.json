@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "@solana/wallet-adapter",
+    "name": "@grhbit/wallet-adapter",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
     "license": "Apache-2.0",
