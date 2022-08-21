@@ -6,13 +6,13 @@
     "license": "Apache-2.0",
     "type": "module",
     "sideEffects": false,
-    "main": "./lib/cjs/index.js",
-    "module": "./lib/esm/index.js",
-    "types": "./lib/types/index.d.ts",
+    "main": "./lib/index.cjs",
+    "module": "./lib/index.js",
+    "types": "./lib/index.d.ts",
     "exports": {
-        "require": "./lib/cjs/index.js",
-        "import": "./lib/esm/index.js",
-        "types": "./lib/types/index.d.ts"
+        "require": "./lib/index.cjs",
+        "import": "./lib/index.js",
+        "types": "./lib/index.d.ts"
     },
     "files": [
         "lib",
@@ -24,6 +24,7 @@
     },
     "scripts": {
         "clean": "shx mkdir -p lib && shx rm -rf lib",
+        "build": "tsup",
         "test": "jest"
     },
     "peerDependencies": {

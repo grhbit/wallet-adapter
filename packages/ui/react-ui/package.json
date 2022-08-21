@@ -6,14 +6,14 @@
     "license": "Apache-2.0",
     "type": "module",
     "sideEffects": false,
-    "main": "./lib/cjs/index.js",
-    "module": "./lib/esm/index.js",
-    "types": "./lib/types/index.d.ts",
+    "main": "./lib/index.cjs",
+    "module": "./lib/index.js",
+    "types": "./lib/index.d.ts",
     "exports": {
         ".": {
-            "import": "./lib/esm/index.js",
-            "require": "./lib/cjs/index.js",
-            "types": "./lib/types/index.d.ts"
+            "import": "./lib/index.js",
+            "require": "./lib/index.cjs",
+            "types": "./lib/index.d.ts"
         },
         "./styles.css": "./styles.css"
     },
@@ -27,7 +27,8 @@
         "access": "public"
     },
     "scripts": {
-        "clean": "shx mkdir -p lib && shx rm -rf lib"
+        "clean": "shx mkdir -p lib && shx rm -rf lib",
+        "build": "tsup"
     },
     "peerDependencies": {
         "@solana/web3.js": "^1.50.1",
