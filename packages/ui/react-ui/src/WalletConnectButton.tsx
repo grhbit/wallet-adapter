@@ -1,4 +1,4 @@
-import { useWallet } from '@solana/wallet-adapter-react';
+import { useWallet } from '@grhbit/wallet-adapter-react';
 import type { FC, MouseEventHandler } from 'react';
 import React, { useCallback, useMemo } from 'react';
 import type { ButtonProps } from './Button';

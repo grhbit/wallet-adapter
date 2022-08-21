@@ -1,5 +1,5 @@
-import type { SendTransactionOptions, WalletName } from '@solana/wallet-adapter-base';
-import { BaseWalletAdapter, WalletReadyState } from '@solana/wallet-adapter-base';
+import type { SendTransactionOptions, WalletName } from '@grhbit/wallet-adapter-base';
+import { BaseWalletAdapter, WalletReadyState } from '@grhbit/wallet-adapter-base';
 import type { Connection, Transaction, TransactionSignature } from '@solana/web3.js';
 import { PublicKey } from '@solana/web3.js';
 

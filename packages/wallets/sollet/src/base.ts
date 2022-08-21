@@ -19,7 +19,7 @@ import {
     WalletTimeoutError,
     WalletWindowBlockedError,
     WalletWindowClosedError,
-} from '@solana/wallet-adapter-base';
+} from '@grhbit/wallet-adapter-base';
 import type { Transaction } from '@solana/web3.js';
 import { PublicKey } from '@solana/web3.js';
 

@@ -1,5 +1,5 @@
-import type { Adapter, SendTransactionOptions, WalletError, WalletName } from '@solana/wallet-adapter-base';
-import { WalletNotConnectedError, WalletNotReadyError, WalletReadyState } from '@solana/wallet-adapter-base';
+import type { Adapter, SendTransactionOptions, WalletError, WalletName } from '@grhbit/wallet-adapter-base';
+import { WalletNotConnectedError, WalletNotReadyError, WalletReadyState } from '@grhbit/wallet-adapter-base';
 import type { Connection, PublicKey, Transaction } from '@solana/web3.js';
 import type { FC, ReactNode } from 'react';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';

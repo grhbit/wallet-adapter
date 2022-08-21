@@ -3,7 +3,7 @@ import type {
     SendTransactionOptions,
     WalletAdapterNetwork,
     WalletName,
-} from '@solana/wallet-adapter-base';
+} from '@grhbit/wallet-adapter-base';
 import {
     BaseMessageSignerWalletAdapter,
     scopePollingDetectionStrategy,
@@ -19,7 +19,7 @@ import {
     WalletSendTransactionError,
     WalletSignMessageError,
     WalletSignTransactionError,
-} from '@solana/wallet-adapter-base';
+} from '@grhbit/wallet-adapter-base';
 import type { Connection, SendOptions, Transaction, TransactionSignature } from '@solana/web3.js';
 import { PublicKey } from '@solana/web3.js';
 

@@ -1,4 +1,4 @@
-import { useWallet } from '@solana/wallet-adapter-react';
+import { useWallet } from '@grhbit/wallet-adapter-react';
 import type { ButtonProps } from 'antd';
 import { Button } from 'antd';
 import type { FC, MouseEventHandler } from 'react';

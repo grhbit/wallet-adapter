@@ -25,10 +25,10 @@
         "eject": "react-scripts eject"
     },
     "dependencies": {
-        "@grhbit/wallet-adapter-base": "^0.9.13",
-        "@grhbit/wallet-adapter-react": "^0.15.15",
-        "@grhbit/wallet-adapter-react-ui": "^0.9.13",
-        "@grhbit/wallet-adapter-wallets": "^0.18.2",
+        "@solana/wallet-adapter-base": "npm:@grhbit/wallet-adapter-base@^0.9.13",
+        "@solana/wallet-adapter-react": "npm:@grhbit/wallet-adapter-react@^0.15.15",
+        "@solana/wallet-adapter-react-ui": "npm:@grhbit/wallet-adapter-react-ui@^0.9.13",
+        "@solana/wallet-adapter-wallets": "npm:@grhbit/wallet-adapter-wallets@^0.18.2",
         "@solana/web3.js": "^1.50.1",
         "react": "^18.0.0",
         "react-app-rewired": "^2.2.1",

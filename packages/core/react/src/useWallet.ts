@@ -5,7 +5,7 @@ import type {
     SignerWalletAdapterProps,
     WalletName,
     WalletReadyState,
-} from '@solana/wallet-adapter-base';
+} from '@grhbit/wallet-adapter-base';
 import type { Connection, PublicKey, Transaction, TransactionSignature } from '@solana/web3.js';
 import { createContext, useContext } from 'react';
 

@@ -3,7 +3,7 @@ import {
     DisconnectOutlined as DisconnectIcon,
     SwapOutlined as SwitchIcon,
 } from '@ant-design/icons';
-import { useWallet } from '@solana/wallet-adapter-react';
+import { useWallet } from '@grhbit/wallet-adapter-react';
 import type { ButtonProps } from 'antd';
 import { Button, Dropdown, Menu } from 'antd';
 import type { FC } from 'react';

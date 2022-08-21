@@ -1,4 +1,4 @@
-import type { WalletName } from '@solana/wallet-adapter-base';
+import type { WalletName } from '@grhbit/wallet-adapter-base';
 import type { SolletWalletAdapterConfig } from './base';
 import { BaseSolletWalletAdapter } from './base';
 

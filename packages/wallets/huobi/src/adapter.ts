@@ -1,4 +1,4 @@
-import type { EventEmitter, WalletName } from '@solana/wallet-adapter-base';
+import type { EventEmitter, WalletName } from '@grhbit/wallet-adapter-base';
 import {
     BaseMessageSignerWalletAdapter,
     scopePollingDetectionStrategy,
@@ -11,7 +11,7 @@ import {
     WalletReadyState,
     WalletSignMessageError,
     WalletSignTransactionError,
-} from '@solana/wallet-adapter-base';
+} from '@grhbit/wallet-adapter-base';
 import type { Transaction } from '@solana/web3.js';
 import { PublicKey } from '@solana/web3.js';
 

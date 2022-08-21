@@ -1,5 +1,5 @@
 import type { default as Blocto, SolanaProviderInterface } from '@blocto/sdk';
-import type { SendTransactionOptions, WalletName } from '@solana/wallet-adapter-base';
+import type { SendTransactionOptions, WalletName } from '@grhbit/wallet-adapter-base';
 import {
     BaseWalletAdapter,
     WalletAccountError,
@@ -14,7 +14,7 @@ import {
     WalletPublicKeyError,
     WalletReadyState,
     WalletSendTransactionError,
-} from '@solana/wallet-adapter-base';
+} from '@grhbit/wallet-adapter-base';
 import type { Connection, Transaction, TransactionSignature } from '@solana/web3.js';
 import { PublicKey } from '@solana/web3.js';
 

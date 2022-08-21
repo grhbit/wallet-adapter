@@ -1,4 +1,4 @@
-import type { SendTransactionOptions, WalletName } from '@solana/wallet-adapter-base';
+import type { SendTransactionOptions, WalletName } from '@grhbit/wallet-adapter-base';
 import {
     BaseSignerWalletAdapter,
     WalletConfigError,
@@ -9,7 +9,7 @@ import {
     WalletNotReadyError,
     WalletReadyState,
     WalletSignTransactionError,
-} from '@solana/wallet-adapter-base';
+} from '@grhbit/wallet-adapter-base';
 import type { Connection, PublicKey, Transaction, TransactionSignature } from '@solana/web3.js';
 import type { StrikeWallet } from '@strike-protocols/solana-wallet-adapter';
 

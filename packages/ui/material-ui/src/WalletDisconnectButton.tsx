@@ -1,6 +1,6 @@
 import type { ButtonProps } from '@mui/material';
 import { Button } from '@mui/material';
-import { useWallet } from '@solana/wallet-adapter-react';
+import { useWallet } from '@grhbit/wallet-adapter-react';
 import type { FC, MouseEventHandler } from 'react';
 import React, { useCallback, useMemo } from 'react';
 import { WalletIcon } from './WalletIcon';
